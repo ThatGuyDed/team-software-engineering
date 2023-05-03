@@ -11,6 +11,7 @@ public class letterGenerator : MonoBehaviour
     {
         foreach(Text letter in buttonletters){
             letter.text = char.ToString(letterList.randomLetter()).ToUpper();
+            letter.fontSize = changeFont.fontSize;
         }
     }
     
