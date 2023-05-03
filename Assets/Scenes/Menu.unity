@@ -459,6 +459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72e795e34838dea4ca4e2d9c79b14b96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fontSlider: {fileID: 488467597}
 --- !u!114 &420561236 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4865422273168454118, guid: 465fc1c4074dac945ae38fb6c26b2d13, type: 3}
@@ -602,7 +603,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 312170119}
   m_HandleRect: {fileID: 2043947545}
   m_Direction: 0
-  m_MinValue: 200
+  m_MinValue: 1
   m_MaxValue: 300
   m_WholeNumbers: 1
   m_Value: 300
@@ -612,7 +613,7 @@ MonoBehaviour:
       - m_Target: {fileID: 359543491}
         m_TargetAssemblyTypeName: changeFont, Assembly-CSharp
         m_MethodName: ChangeSizeFont
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
