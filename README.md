@@ -1,5 +1,8 @@
 # TSE Group 23
+![image](https://user-images.githubusercontent.com/101341494/236667062-c26aeb29-8161-4589-b439-048bc39538ad.png)
+
 Our artefact is an electronic educational game for children with special needs. 
+
 The core game mechanic is based off of ‘Boggle’, a word game where players must find words within a grid of mixed letters under a time constraint.
 
 # Getting Started
