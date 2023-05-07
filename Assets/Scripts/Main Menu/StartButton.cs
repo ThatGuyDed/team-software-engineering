@@ -7,9 +7,14 @@ public class StartButton : MonoBehaviour
 {
     public AudioSource speaker;
     public AudioClip startTTS;
+
+    public GameObject mainMenu;
+    public GameObject game;
+
     public void StartButtonPressed(){
         Debug.Log("Start Button Pressed!");
-        SceneManager.LoadSceneAsync("Game");
+        mainMenu.SetActive(false);
+        game.SetActive(true);
         
     }
 
