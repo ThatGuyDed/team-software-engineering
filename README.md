@@ -1,4 +1,4 @@
-# TSE Group 23
+# TSE Group 21
 ![image](https://user-images.githubusercontent.com/101341494/236667062-c26aeb29-8161-4589-b439-048bc39538ad.png)
 
 Our artefact is an electronic educational game for children with special needs. 
