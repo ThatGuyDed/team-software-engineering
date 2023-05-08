@@ -8,6 +8,7 @@ public class BoardButton : MonoBehaviour
     public Color32 textColour;
     public Color32 boxColour;
     public GameObject button;
+
     List<GameObject> validButtons;
     public List<string> validButtonsString;
 
@@ -44,6 +45,9 @@ public class BoardButton : MonoBehaviour
         }
         //Debug.Log(button.transform.position.x - lastButton.transform.position.x);
         click.PlayOneShot(clickNoise);
+        if (TTS.ttsOn){
+            letterTTS.TTSLetter(letter.text);
+        }
     }
 
     public void resetColours(){
