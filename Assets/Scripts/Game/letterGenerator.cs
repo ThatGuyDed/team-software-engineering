@@ -7,11 +7,20 @@ public class letterGenerator : MonoBehaviour
 {
     public Text[] buttonletters;
     // Start is called before the first frame update
+
+    void OnEnable(){
+        foreach(Text letter in buttonletters){
+            //letter.text = char.ToString(letterList.randomLetter()).ToUpper();
+            letter.fontSize = changeFont.fontSize;
+        }
+    }
+
     public void Start()
     {
         foreach(Text letter in buttonletters){
             letter.text = char.ToString(letterList.randomLetter()).ToUpper();
             letter.fontSize = changeFont.fontSize;
+            Debug.Log(letter.fontSize);
         }
     }
     
