@@ -10,8 +10,12 @@ public class timerCount : MonoBehaviour
     public GameObject midGame;
     public GameObject endGame;
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
+        timer = TimerButton.timerNum * 60;
+    }
+
+    public void Reset(){
         timer = TimerButton.timerNum * 60;
     }
 

@@ -7,6 +7,15 @@ public class resetButton : MonoBehaviour
 {
     public Text word;
     public GameObject[] buttons;
+    public AudioSource sounds;
+    public AudioClip sound;
+
+    public void OnResetHover(){
+        if(TTS.ttsOn){
+        sounds.PlayOneShot(sound);
+        }
+    }
+
     public void resetButtonPressed(){
         BoardButton.lastButton = null;
         word.text = "";
@@ -15,4 +24,6 @@ public class resetButton : MonoBehaviour
             button.GetComponent<BoardButton>().isPressed = false;
         }
     }
+
+
 }
