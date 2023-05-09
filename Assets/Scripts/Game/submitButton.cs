@@ -14,6 +14,15 @@ public class submitButton : MonoBehaviour
     public GameObject gameFunctions;
     public Text word;
 
+    public AudioSource sounds;
+    public AudioClip sound;
+
+    public void OnSubmitHover(){
+        if(TTS.ttsOn){
+        sounds.PlayOneShot(sound);
+        }
+    }
+
     void Start(){
         longLines = textFile.text;
 

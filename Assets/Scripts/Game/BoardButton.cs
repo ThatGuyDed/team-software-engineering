@@ -9,6 +9,8 @@ public class BoardButton : MonoBehaviour
     public Color32 boxColour;
     public GameObject button;
 
+    public GameObject options;
+
     List<GameObject> validButtons;
     public List<string> validButtonsString;
 
@@ -51,8 +53,8 @@ public class BoardButton : MonoBehaviour
     }
 
     public void resetColours(){
-        button.GetComponent<Image>().color = textColour;
-        letter.color = boxColour;
+        button.GetComponent<Image>().color = options.GetComponent<ColourChanger>().buttonBackgrounds[options.GetComponent<ColourChanger>().colorCounter];
+        letter.color = options.GetComponent<ColourChanger>().textColors[options.GetComponent<ColourChanger>().colorCounter];;
     }
     
 }
