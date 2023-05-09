@@ -16,7 +16,7 @@ This game is written in C# using the unity game engine but can be run without ei
 
 For PC navigate to the repository directory and either clone or download the game. Unzip the file and open the .exe file within to load the game.
 
-For android devices, the F-Droid and Android store will have our game available under the name **SpellBlitz**.
+For android devices, the F-Droid and Android store will have our game available under the name **LetterScape**.
 
 # Contributions
 We welcome contributions to this project! If you would like to contribute, please fork the repository and submit a pull request with your changes.
