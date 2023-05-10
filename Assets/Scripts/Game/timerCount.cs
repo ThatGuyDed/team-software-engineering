@@ -9,7 +9,7 @@ public class timerCount : MonoBehaviour
     public Text timerText;
     public GameObject midGame;
     public GameObject endGame;
-    // Start is called before the first frame update
+    // Handle setting up timer
     void OnEnable()
     {
         timer = TimerButton.timerNum * 60;
@@ -19,7 +19,7 @@ public class timerCount : MonoBehaviour
         timer = TimerButton.timerNum * 60;
     }
 
-    // Update is called once per frame
+    // Update timer every frame
     void Update()
     {
         if(timer > 0){

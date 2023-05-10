@@ -14,6 +14,8 @@ public class exitToMenu : MonoBehaviour
     public AudioSource sounds;
     public AudioClip sound;
 
+    // Handle ETM button and TTS
+
     public void OnETMHover(){
         if(TTS.ttsOn){
         sounds.PlayOneShot(sound);

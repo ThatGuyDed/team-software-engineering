@@ -6,6 +6,8 @@ public class ExitButton : MonoBehaviour
 {
     public AudioSource speaker;
     public AudioClip exitTTS;
+
+    // Handle the exit button being pressed and TTS
     public void ExitButtonPressed(){
         Debug.Log("Exit Button Pressed!");
         Application.Quit();

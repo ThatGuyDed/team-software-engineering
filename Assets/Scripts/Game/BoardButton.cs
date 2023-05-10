@@ -28,6 +28,10 @@ public class BoardButton : MonoBehaviour
             validButtons.Add(GameObject.Find(s));
         }
     }
+
+    // Check if button is valid and change it's colour
+    // while adding the letter to the word list
+
     public void boardButtonPressed(){
         
         if(!isPressed && !lastButton){
@@ -52,6 +56,8 @@ public class BoardButton : MonoBehaviour
         }
     }
 
+
+    // Reset colours if needed
     public void resetColours(){
         button.GetComponent<Image>().color = options.GetComponent<ColourChanger>().buttonBackgrounds[options.GetComponent<ColourChanger>().colorCounter];
         letter.color = options.GetComponent<ColourChanger>().textColors[options.GetComponent<ColourChanger>().colorCounter];;

@@ -17,12 +17,16 @@ public class submitButton : MonoBehaviour
     public AudioSource sounds;
     public AudioClip sound;
 
+    // TTS for Submit
+
     public void OnSubmitHover(){
         if(TTS.ttsOn){
         sounds.PlayOneShot(sound);
         }
     }
 
+
+    // Load the dictionary
     void Start(){
         longLines = textFile.text;
 
@@ -34,6 +38,9 @@ public class submitButton : MonoBehaviour
             lines[i] = Regex.Replace(lines[i], @"[^\u0020-\u007F]", string.Empty);
         }
     }
+
+    // Compare word with dictionary and give points
+    
     public void submitButtonPressed(){
         if(word.text != ""){
             if(lines.Contains(word.text)){

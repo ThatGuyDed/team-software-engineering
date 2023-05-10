@@ -10,6 +10,9 @@ public class resetButton : MonoBehaviour
     public AudioSource sounds;
     public AudioClip sound;
 
+
+    // Reset Button + TTS
+
     public void OnResetHover(){
         if(TTS.ttsOn){
         sounds.PlayOneShot(sound);

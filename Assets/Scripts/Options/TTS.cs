@@ -10,6 +10,8 @@ public class TTS : MonoBehaviour
     public AudioSource speaker;
     public AudioClip ttsOnTTS;
     public AudioClip ttsOffTTS;
+
+    // If the TTS button gets pressed we change it from on to off or vice versa
     public void TTSButtonPressed(){
         if (ttsText.text == "Off"){
             ttsText.text = "On";
