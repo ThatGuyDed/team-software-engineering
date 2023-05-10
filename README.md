@@ -28,8 +28,8 @@ This repository was created with the help of: **Malachi Clegg**, **Gareth Mason*
 
 Special Thanks to **James Wingate** for his guidance and support.
 
-# Licensing
+# Licensing and Other
 This projected is licensed under the GNU Lesser General Public License. See the [LICENSE](License-gnu-lgpl-v3.0.md) file for more information.
-
+Documentation highlighting the functions and procedures used can be found in [DOC](Documentation.txt).
  
 
