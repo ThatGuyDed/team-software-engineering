@@ -11,6 +11,8 @@ public class StartButton : MonoBehaviour
     public GameObject mainMenu;
     public GameObject game;
 
+    // Handle start button pressed plus TTS
+
     public void StartButtonPressed(){
         Debug.Log("Start Button Pressed!");
         mainMenu.SetActive(false);

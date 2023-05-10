@@ -8,6 +8,9 @@ public class OptionsButton : MonoBehaviour
     public GameObject optionsMenu;
     public AudioSource speaker;
     public AudioClip optionsTTS;
+
+
+    //When options button pressed, turn on options menu plus TTS
     public void OptionsButtonPressed(){
         Debug.Log("Options Button Pressed!");
         mainMenu.SetActive(false);

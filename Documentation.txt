@@ -1,0 +1,56 @@
+BoardButton:
+	Start():
+	 Sets up the list of buttons for the game to function
+	boardButtonPressed():
+	 When a button is pressed, checks if it is the first pressed, if it is make it green
+	 If the button is next in line, make the button pressed green and make the last one orange.
+	resetColours():
+ 	 Sets the button back to it's default colour
+
+exitToMenu:
+	OnETMHover():
+	 Plays the TTS audio if TTS is on
+	exitToMenuButton():
+	 Sets the currently active canvas to be the menu while resetting the board
+
+letterGenerator:
+	OnEnable():
+	 Sets the font size to whatever it is based on the slider in options
+	Start():
+	 Similar to OnEnable but also sets the letter text to a random letter
+
+letterList:
+	randomLetter():
+	 Chooses a random letter from the char[] letters, with some letters being more common
+
+letterTTS:
+	Start():
+	 Sets up the letter audio clips
+	TTSLetter(string letterText):
+	 Takes in a string and plays the TTS clip for that letter
+
+scoring:
+	OnEnable():
+	 When enabled sets score to 0
+	Update:
+	 Makes sure the score text is always showing the correct score
+
+timerCount:
+	OnEnable():
+	 When enabled set timer to x minutes based on timer button
+	Reset():
+	 Sets the timer back to starting number
+	Update():
+	 Reduces timer val based on time spent each frame
+
+changeFont:
+	ChangeFontSize():
+	 Changes fontSize variable based on slider value and updates the game board
+
+TimerButton:
+	timerButtonPressed():
+	 Increments timerNum each time the button is pressed (min 1 max 20, loops)
+
+VolumeChanger:
+	SetLevel(float sliderVal):
+	 Sets mixer volume, takes in float from slider and converts it to dB

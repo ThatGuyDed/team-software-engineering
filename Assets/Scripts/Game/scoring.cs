@@ -8,8 +8,8 @@ public class scoring : MonoBehaviour
     public static int score;
     public Text scoreText;
     public Text scoreText2;
-    // Update is called once per frame
 
+    // Handle showing score to player
     void OnEnable(){
         score = 0;
     }

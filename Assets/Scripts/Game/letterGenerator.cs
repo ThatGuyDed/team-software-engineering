@@ -15,6 +15,7 @@ public class letterGenerator : MonoBehaviour
         }
     }
 
+    // Generate a random letter for each button
     public void Start()
     {
         foreach(Text letter in buttonletters){

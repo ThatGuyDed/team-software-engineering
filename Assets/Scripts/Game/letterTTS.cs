@@ -18,6 +18,8 @@ public class letterTTS : MonoBehaviour
         }
     }
 
+    //Handle TTS for each letter
+    
     public static void TTSLetter(string letterText){
         switch (letterText){
                 case "A":
