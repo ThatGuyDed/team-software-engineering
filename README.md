@@ -31,5 +31,7 @@ Special Thanks to **James Wingate** for his guidance and support.
 # Licensing and Other
 This projected is licensed under the GNU Lesser General Public License. See the [LICENSE](License-gnu-lgpl-v3.0.md) file for more information.
 Documentation highlighting the functions and procedures used can be found in [DOC](Documentation.txt).
+
+[Our Security policy](SECURITY.md)
  
 
