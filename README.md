@@ -14,7 +14,7 @@ For example, a user with dyslexia will have trouble playing Boggle, as it employ
 # Getting Started
 This game is written in C# using the unity game engine but can be run without either installed on your system
 
-For PC navigate to the repository directory and either clone or download the game. Unzip the file and open the .exe file within to load the game.
+For PC navigate to [Release](https://github.com/ThatGuyDed/team-software-engineering/releases). Unzip the file and open the Unity file within to load the game.
 
 For android devices, the F-Droid and Android store will have our game available under the name **LetterScape**.
 
